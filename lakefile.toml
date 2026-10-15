@@ -1,0 +1,9 @@
+name = "mountain_task"
+defaultTargets = ["Task"]
+
+[[require]]
+name = "mathlib"
+path = "/opt/mathlib4"
+
+[[lean_lib]]
+name = "Task"
